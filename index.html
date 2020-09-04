@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<title>Responsive Design by JPTiu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <header>
+      <a href="#" class="logo"><span>{}</span> Develi</a>
+      <div class="toggle"></div>
+      <nav>
+       <ul>
+          <li><a href="#">Home</a></li>
+          <li ><a href="#">Services</a>
+            <ul>
+              <li><a href="#">Service 1</a></li>
+              <li><a href="#">Service 2</a></li>
+              <li><a href="#">Service 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active')
+          $('nav').toggleClass('active')
+        })
+      })
+    </script>
+    <img src="https://i.redd.it/b86w14sg8nd31.jpg" class="wave">
+    <div class="content">
+      <h2>Software made with love.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et.</p>
+      <a href="#" class="learn">LEARN MORE</a>
+      <a href="#" class="gfq">GET FREE QUOTE</a>
+    </div>
+  </div>
+  <div class="section">
+    
+  </div>
+
+
+</body>
+</html>
