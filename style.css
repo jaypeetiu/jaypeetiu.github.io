@@ -347,7 +347,7 @@ header nav ul li a:hover{
     position: relative;
     width: 400px;
     height: 200px;
-    left: 0;
+    left: 160px;
     top: 0;
   }
   .banner-2 .section{
@@ -374,6 +374,27 @@ header nav ul li a:hover{
   .banner-2 .section{
     padding-left: 0;
     width: 80%;
+  }
+  .banner .content .learn{
+  margin-right: 0;
+  }
+
+  .banner .content .gfq{
+  margin-left: 0;
+  }
+}
+@media (max-width: 600px){
+  .banner-2 .section .laptop{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 20px;
+    top: 0;
+  }
+  .banner-2 .section{
+    padding-left: 0;
+    width: 80%;
+    bottom: 10px;
   }
   .banner .content .learn{
   margin-right: 0;
