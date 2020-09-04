@@ -404,7 +404,7 @@ header nav ul li a:hover{
   margin-left: 0;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 415px){
   .banner-2 .section .laptop{
     position: relative;
     width: 100%;
@@ -425,7 +425,7 @@ header nav ul li a:hover{
   margin-left: 0;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 367px){
   .banner-2 .section .laptop{
     position: relative;
     width: 100%;
