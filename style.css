@@ -124,6 +124,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 }
 .banner-3 .section{
   position: absolute;
@@ -134,12 +135,12 @@
   /*padding-left: 35%;*/
 }
 .banner-3 .section h2{
-  color: #757579;
+  color: #fff;
   font-size: 40px;
   margin-bottom: 20px;
 }
 .banner-3 .section p{
-  color: #757579;
+  color: #fff;
   font-size: 18px;
   margin-bottom: 20px;
 }
@@ -151,6 +152,7 @@
 .banner-4{
   width: 70%;
   margin-left: 4%;
+  margin-top: -60px;
   display: grid;
   grid-row-gap: 50px;
   grid-template-columns: auto auto auto;
