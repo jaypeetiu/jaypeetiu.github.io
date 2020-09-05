@@ -161,19 +161,19 @@
   padding: 10px;
   margin-left: 15%;
 }
-.banner-4 .circle{
+.banner-4 .section .circle{
   border:1px solid grey;
   border-radius: 50px;
   height: 80px;
   width: 80px;
-  margin-top: 0%;
-  margin-left: 0%;
+  /*margin-top: 0%;*/
+  margin-left: 13%;
 }
 .banner-4 .section{
   text-align: center;
   margin-left: -8%;
   padding: 20px;
-  margin-top: 0px;
+  margin-top: -60px;
 }
 .banner-4 .section h2{
   color: #000;
@@ -523,6 +523,69 @@ q {font-style: italic;}
   .banner .content .gfq{
   margin-left: 0;
   }
+
+  .banner-3{
+    height: 700px;
+  }
+  .banner-3 .section{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: -120px;
+  }
+  .banner-3 .section h2{
+    font-size: 25px;
+    margin-top: -100px;
+    /*margin-left: 50px;*/
+  }
+  .banner-3 .section p{
+    font-size: 14px;
+    /*margin-top: -100px;*/
+    /*margin-left: 50px;*/
+  }
+  .banner-3 .phone{
+    height: 100px;
+    width: 50px;
+    visibility: hidden;
+  }
+  .banner-4{
+  width: 100%;
+  /*margin-top: 25%;*/
+  /*margin-left: -10%;*/
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 0;
+  }
+  .banner-4 .section .circle{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -70px;
+  margin-top: -20%;
+  }
+  .banner-4 .section{
+  text-align: center;
+  margin-left: 0px;
+  padding: 20px;
+  margin-top: 0px;
+  width: 60%;
+  }
+  .banner-4 .section h2{
+  color: #000;
+  margin-top: 5%;
+  /*padding-left: 18%;*/
+  font-size: 18px;
+  width: 60%;
+  }
+  .banner-4 .section p{
+  color: #000;
+  font-size: 12px;
+  /*padding-left: 18%;*/
+  width: 60%;
+  }
 }
 @media (max-width: 367px){
   .banner-2 .section .laptop{
@@ -544,6 +607,69 @@ q {font-style: italic;}
   .banner .content .gfq{
   margin-left: 0;
   }
+  .banner-3{
+    height: 700px;
+  }
+  .banner-3 .section{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: -120px;
+  }
+  .banner-3 .section h2{
+    font-size: 25px;
+    margin-top: -100px;
+    /*margin-left: 50px;*/
+  }
+  .banner-3 .section p{
+    font-size: 14px;
+    /*margin-top: -100px;*/
+    /*margin-left: 50px;*/
+  }
+  .banner-3 .phone{
+    height: 100px;
+    width: 50px;
+    visibility: hidden;
+  }
+  .banner-4{
+  width: 100%;
+  /*margin-top: 25%;*/
+  /*margin-left: -10%;*/
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 0;
+  }
+  .banner-4 .section .circle{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -70px;
+  margin-top: -20%;
+  }
+  .banner-4 .section{
+  text-align: center;
+  margin-left: 0px;
+  padding: 20px;
+  margin-top: 0px;
+  width: 60%;
+  }
+  .banner-4 .section h2{
+  color: #000;
+  margin-top: 5%;
+  /*padding-left: 18%;*/
+  font-size: 18px;
+  width: 60%;
+  }
+  .banner-4 .section p{
+  color: #000;
+  font-size: 12px;
+  /*padding-left: 18%;*/
+  width: 60%;
+  }
+
 }
 @media (max-width: 320px){
   .banner-2 .section .laptop{
