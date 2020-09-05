@@ -124,37 +124,62 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 }
 .banner-3 .section{
   position: absolute;
-  width: 80%;
+  width: 50%;
+  margin-left: -10%;
   /*margin-top: 20px;*/
-  text-align: left;
-  padding-left: 35%;
+  text-align: center;
+  /*padding-left: 35%;*/
 }
 .banner-3 .section h2{
-  color: #757579;
+  color: #fff;
   font-size: 40px;
   margin-bottom: 20px;
 }
 .banner-3 .section p{
-  color: #757579;
+  color: #fff;
   font-size: 18px;
   margin-bottom: 20px;
 }
-
+.banner-3 .phone{
+  width: 250px;
+  margin-left: 70%;
+  margin-top: 20%;
+}
+.banner-4{
+  width: 70%;
+  margin-left: 4%;
+  margin-top: -60px;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.banner-4 .circle{
+  border:1px solid grey;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-left: 30%;
+}
+.banner-4 .section{
+  text-align: center;
+  padding: 20px;
+}
+.banner-4 .section p{
+  font-size: 14px;
+}
 header{
   position: relative;
   top: 0;
   left: 0;
   width: 90%;
-  /*max-width: 1280px;*/
   margin: 0px auto;
   padding: 10px;
-  /*background:#fff;*/
   box-sizing: border-box;
-  /*border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,.2);*/
   display: flex;
   justify-content: space-between;
   align-items: center;
