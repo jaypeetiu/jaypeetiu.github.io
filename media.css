@@ -341,6 +341,14 @@
     bottom: 10px;
     top: -10px;
   }
+  .banner{
+    height: 500px;
+  }
+  .banner .content{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 130px;
+  }
   .banner .content .learn{
   margin-right: 0;
   }
