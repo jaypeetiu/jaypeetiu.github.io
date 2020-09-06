@@ -545,7 +545,10 @@ q {font-style: italic;}
   .banner-3 .phone{
     height: 100px;
     width: 50px;
-    visibility: hidden;
+    margin-right: 0%;
+    margin-top: -75%;
+    position: absolute;
+    /*visibility: hidden;*/
   }
   .banner-4{
   width: 100%;
@@ -556,7 +559,7 @@ q {font-style: italic;}
   grid-template-columns: auto auto auto;
   padding: 10px;
   margin-left: 0;
-  }
+  }/*
   .banner-4 .section .circle{
   height: 50px;
   width: 50px;
@@ -565,7 +568,7 @@ q {font-style: italic;}
   display: inline-block;
   margin-left: -70px;
   margin-top: -20%;
-  }
+  }*/
   .banner-4 .section{
   text-align: center;
   margin-left: 0px;
@@ -586,6 +589,7 @@ q {font-style: italic;}
   /*padding-left: 18%;*/
   width: 60%;
   }
+
 }
 @media (max-width: 367px){
   .banner-2 .section .laptop{
@@ -617,7 +621,7 @@ q {font-style: italic;}
   }
   .banner-3 .section h2{
     font-size: 25px;
-    margin-top: -100px;
+    margin-top: -20px;
     /*margin-left: 50px;*/
   }
   .banner-3 .section p{
@@ -625,10 +629,18 @@ q {font-style: italic;}
     /*margin-top: -100px;*/
     /*margin-left: 50px;*/
   }
+  /*.banner-3 .phone{
+    width: 100px;
+    margin-right: -10%;
+    /*visibility: hidden;*/
+  }*/
   .banner-3 .phone{
     height: 100px;
     width: 50px;
-    visibility: hidden;
+    margin-right: 0%;
+    margin-top: -75%;
+    position: absolute;
+    /*visibility: hidden;*/
   }
   .banner-4{
   width: 100%;
@@ -646,28 +658,29 @@ q {font-style: italic;}
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  margin-left: -70px;
+  margin-left: 0px;
   margin-top: -20%;
   }
   .banner-4 .section{
-  text-align: center;
-  margin-left: 0px;
-  padding: 20px;
-  margin-top: 0px;
-  width: 60%;
+    text-align: center;
+    margin-left: -30px;
+    padding: 0px;
+    padding-left: 35px;
+    margin-top: 0px;
+    width: 45%;
   }
   .banner-4 .section h2{
-  color: #000;
-  margin-top: 5%;
-  /*padding-left: 18%;*/
-  font-size: 18px;
-  width: 60%;
+    color: #000;
+    margin-top: 5%;
+    padding-left: 20%;
+    font-size: 18px;
+    width: 80%;
   }
   .banner-4 .section p{
-  color: #000;
-  font-size: 12px;
-  /*padding-left: 18%;*/
-  width: 60%;
+    color: #000;
+    font-size: 12px;
+    padding-left: 20%;
+    width: 77%;
   }
 
 }
