@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+
 .banner{
   position: relative;
   width: 100%;
@@ -25,22 +26,22 @@
 }*/
 .banner .content{
   position: absolute;
-  max-width: 80%;
+  width: 100%;
   margin-top: 120px;
   text-align: center;
-  padding-left: 15%;
 
 }
 
 .banner .content h2{
   color: #fff;
   font-size: 40px;
-  margin-bottom: 20px;
+  font-weight: 400;
 }
 .banner .content p{
   color: #fff;
   font-size: 18px;
-  margin-bottom: 20px;
+  /*margin: 20px;*/
+  padding: 0 10% 0 10%;
 }
 .banner .content .learn{
   position: relative;
@@ -71,6 +72,78 @@
 }
 
 .wave{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #fff;
+  opacity: 0.58;
+}
+/*CONTENT 5*/
+.banner-5{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  /*background:blue;*/
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,.4), rgba(0,0,255,0.4));
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+/*section{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 100px 
+}*/
+.banner-5 .content-5{
+  position: absolute;
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  padding-left: 15%;
+  text-align: left;
+}
+.banner-5 .content-5 .contact{
+  float: left;
+  padding: 20px;
+  margin-right: 5%;
+}
+.banner-5 .content-5 h2{
+  color: #fff;
+}
+.banner-5 .content-5 p{
+  color: #fff;
+}
+.banner-5 .content-5 input{
+  border-radius: 50px;
+  padding: 12px;
+  height: 40px;
+  width: 22%;
+}
+.banner-5 .content-5 .col{
+  margin: 5px;
+}
+.banner-5 .content-5 .gfq{
+  position: relative;
+  width: 43%;
+  text-align: center;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: blue;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 40px; 
+  margin-left: 0%;
+}
+.wave-2{
   position: absolute;
   top: 0;
   left: 0;
@@ -119,19 +192,19 @@
 .banner-3{
   position: relative;
   width: 100%;
-  height: 400px;
-  background:#3475ca;
+  height: 600px;
+  /*margin-top: -200px;*/
+  background-image: linear-gradient(blue 50%, white 50%);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: -1;
+  /*z-index: -1;*/
 }
 .banner-3 .section{
   position: absolute;
   width: 50%;
-  margin-top: 20px 20px;
   margin-left: -10%;
-  /*margin-top: 20px;*/
+  margin-top: -12%;
   text-align: center;
   /*padding-left: 35%;*/
 }
@@ -147,31 +220,43 @@
 }
 .banner-3 .phone{
   width: 250px;
-  margin-left: 70%;
-  margin-top: 20%;
+  margin-right: 5%;
+  /*margin-top: 20%;*/
 }
+
 .banner-4{
-  width: 70%;
-  margin-left: 4%;
-  margin-top: -60px;
+  width: 80%;
+  /*margin-top: 25%;*/
+  /*margin-left: -10%;*/
   display: grid;
   grid-row-gap: 50px;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  margin-left: 15%;
 }
-.banner-4 .circle{
+.banner-4 .section .circle{
   border:1px solid grey;
   border-radius: 50px;
-  height: 100px;
-  width: 100px;
-  margin-left: 30%;
+  height: 80px;
+  width: 80px;
+  /*margin-top: 0%;*/
+  margin-left: 13%;
 }
 .banner-4 .section{
   text-align: center;
+  margin-left: -8%;
   padding: 20px;
+  margin-top: -60px;
+}
+.banner-4 .section h2{
+  color: #000;
+  font-size: 25px;
+  width: 40%;
 }
 .banner-4 .section p{
+  color: #000;
   font-size: 14px;
+  width: 40%;
 }
 header{
   position: relative;
@@ -262,234 +347,267 @@ header nav ul li ul li{
 header nav ul li a:hover{
   color: #e0e7e7;
 }
+/*SLIDES QOUTES*/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #fff;
 
-@media (max-width: 1200px){
-  header{
-    margin: 10px;
-  }
 }
-@media (max-width: 1086px){
-  header{
-    margin: 0;
-  }
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  margin: 50px;
+  box-sizing: border-box;
 }
-@media (max-width: 1056px){
-  .banner-2 .section .laptop{
-    /*position: absolute;
-    width: 500px;
-    height: 200px;
-    left: 0;
-    top: 0;*/
-
-    position: absolute;
-    width: 700px;
-    height: 400px;
-    left: -27%;
-    top: -50%;
-    z-index: 10;
-  }
-  .banner-2{
-    height: 400px;
-  }
-  .banner-2 .section{
-    /*padding-left: 0;*/
-    width: 80%;
-
-    position: absolute;
-    /*width: 80%;*/
-    margin-top: 20px;
-    text-align: left;
-    padding-left: 40%;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
-
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+.mySlides
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-@media (max-width: 962px){
-  .toggle{
-    display: block;
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    float: right;
-    cursor: pointer;
+.mySlides:before, .mySlides:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.mySlides:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
     text-align: center;
-    font-size: 30px;
-    color: #fff;
-  }
-  .toggle:before{
-    content: '\f0c9';
-    font-family: fontAwesome;
-    line-height: 40px;
-  }
-  .toggle.active:before{
-    content: '\f00d';
-
-  }
-  nav{
-    display: none;
-  }
-  nav.active{
-    display: block;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 80px;
-    background-color: #1579ea;
-  }
-  nav.active ul{
-    display: block; 
-  }
-  nav.active ul li a{
-    margin: 0;
-    color: white;
-  }
-  nav.active ul li ul{
-    margin: 0;
-    background-color: #1579ea;
-    width: 100%;
-    top:80px;
-  }
-  nav.active ul li ul li a{
-    margin: 0;
-    color: white;
-  }
-  header{
-    width: 100%;
-    margin-left: 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
-    background-color: #1579ea;
-    opacity: 0.80;
-    margin-top: 0px;
-  }
-  .banner .content{
-    top: 0px;
-  }
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 400px;
-    height: 200px;
-    left: 160px;
-    top: 0;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
-
-  .banner .content .gfq{
-  margin-left: 0;
-  }
-  
+    padding: 20px;
+    background: #ddd;
 }
-@media (max-width: 800px){
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 400px;
-    height: 200px;
-    left: 100px;
-    top: 0;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
 
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-@media (max-width: 600px){
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 400px;
-    height: 200px;
-    left: 20px;
-    top: 0;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-    bottom: 10px;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
 
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #214aff;
 }
-@media (max-width: 415px){
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 100%;
-    height: 150px;
-    left: 0;
-    top: 10px;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-    bottom: 10px;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
 
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+/*SLIDES QOUTES END*/
+
+footer{
+  position: relative;
+  bottom: 0;
 }
-@media (max-width: 367px){
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 100%;
-    height: 150px;
-    left: 0;
-    top: 15px;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-    bottom: 10px;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
-
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+.footer-distributed{
+  background-color: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+ 
+  padding: 55px 50px;
+  margin-top: 80px;
 }
-@media (max-width: 320px){
-  .banner-2 .section .laptop{
-    position: relative;
-    width: 100%;
-    height: 140px;
-    left: 0;
-    top: 15px;
-  }
-  .banner-2 .section{
-    padding-left: 0;
-    width: 80%;
-    bottom: 10px;
-  }
-  .banner .content .learn{
-  margin-right: 0;
-  }
-
-  .banner .content .gfq{
-  margin-left: 0;
-  }
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+  width: 40%;
+}
+ 
+.footer-distributed h3{
+  color:  blue;
+  font: 600 36px 'Work Sans', cursive;
+  margin: 0;
+}
+ 
+.footer-distributed h3 span{
+  color:  #fff;
+}
+.footer-distributed .footer-left p{
+  color: grey;
+}
+ 
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+  border-top:1px solid grey;
+  width: 100%;
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+ 
+ 
+.footer-distributed .footer-center{
+  width: 35%;
+}
+.footer-distributed .footer-center h5{
+  color: #fff;
+}
+ 
+.footer-distributed .footer-center i{
+  background-color:  #000;
+  color: blue;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: grey;
+  vertical-align: middle;
+  margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+  color:  grey;
+  text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+  width: 20%;
+}
+.footer-distributed .footer-right h5{
+  color: #fff;
+}
+.footer-distributed .footer-right li{
+  margin-top: 5%;
+}
+.footer-distributed .footer-right li a{
+  color: blue;
+}
+ 
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+ 
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  line-height: 35px;
+ 
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
